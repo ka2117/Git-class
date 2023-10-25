@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="Registration Form styling.css" type="text/css">
+</head>
+<body>
+    <h1> School Registration form </h1>
+   <div class="regform">
+    <form action="signup.html">
+          <table>
+            <tr> 
+                
+                <td><label for="student name"> Student name </label> </td>
+                <td><input type="text" id="student name" name="student name" required></td>
+                </tr>
+                <tr>
+                <td><label for="Gender"> Gender </label> </td>
+                <td><input type="text" id="Gender" name="Gender"required> </td>
+                </tr>
+                <tr>
+                <td><label for="Phone number"> Phone number </label></td>
+                <td><input type="number" id="Phone number" name="Phone number"required></td>
+                </tr>
+                <tr>
+                <td> <label for="DOB"> Date of Birth </td>
+                <td> <input type="date" id="DOB" name="Date of birth"required></td>
+                </tr>
+                <tr>
+                  <td><label for="mail id"> Mail address </label></td>
+                  <td><input type="mail" id="mail id" name="Mail address" required></td>
+                </tr>
+               
+                
+            </table>
+           <table id="local">
+            <thead>
+               <th> Local address </th>
+               <th> Residential address</th>
+            </thead>
+            <tr>
+               <td><input type="address" id="address" name="Local address"required></td>
+               <td><input type="address" id="address" name="Residential address"required> </td>
+            </tr>
+           </table>
+          
+           
+         <div>
+        <h3> How do you hear about us? </h3>
+        <div id="News">
+        <input type="checkbox" id="Newspaper" name="Newspaper" value="Newspaper"required>
+        <label for="Newspaper"> Newspaper </label>
+        </div>
+        <div id="fri">
+        <input type="checkbox" id="Friend" name="Friend" value="Friend"required>
+        <label for="Friend"> Friend </label>
+        </div>
+        <div id="web">
+        <input type="checkbox" id="Website" name="website" value="Website"required>
+        <label for="Website"> Website </label>
+        </div>
+        <div id="box">
+        <input type="checkbox" id="other" name="other" value="Other"required>
+        <label for="Other"> Other </label>
+        </div>
+     </div>
+     <div>
+        <h4> I agree to pay school fees in advance by: </h4>
+        <div class="payment">
+         <div class="ash">
+       <label for="cash">  
+       <input type="radio" id="cash" name="Payment" value="cash"> Cash  </label>
+       </div>
+       <div class="rad">
+       <label for="card"> 
+       <input type="radio" id="card" name="Payment" value="card">Card </label>
+       </div>
+       <div class="que">
+       <label for="Cheque">  
+      <input type="radio" id="Cheque" name="Payment" value="Cheque">Cheque </label>
+      </div>
+        </div>
+     </div>
+     <div>
+      <p1> I would like to register for the following courses</p1>
+      <table>
+         <thead><th>Course name</th> </thead>
+       <tr>
+        <td> <p>(1) <input type="text" id="course name" name="course name"required></p></td>
+      </tr>
+      <tr>
+         <td><p>(2) <input type="text" id="course name" name="course name"required> </p></td>
+      </tr>
+      <tr>
+         <td><p>(3) <input type="text" id="course name" name="course name"required></p></td>
+      </tr>
+      <tr>
+         <td><p>(4) <input type="text" id="course name" name="course name"required> </p></td>
+      </tr>
+      </table>
+     </div>
+     <div>
+      <table id="mytable">
+         <td><label for="attendence"> Last school attended </label></td>
+         <td><input type="text" id="attendence" name="Last school attended"required></td>
+      </table>
+     </div>
+     <div class="digital"> Please attach digital sign  </div>
+     <div class="container">
+ 
+      <div class="sign">
+        <p> STUDENT SIGNATURE</p>
+      <hr>
+      </div>
+      <div class="sign">
+        <p> PRINCIPAL SIGNATURE</p>
+        <hr>
+      </div>
+      <div class="sign">
+        <p> PARENT SIGNATURE </p>
+        <hr>
+        </div>
+        </div>
+     
+      <div class="dat">
+        <label for="Date"> Date of Registration </label>
+        <input type="date" id="Date" name="Date of Registration" required>
+     </div>
+     <div class="sub">
+      <button type="submit">Register now </button>
+     </div>
+     </form>
+   </div>
+    
+</body>
+</html>

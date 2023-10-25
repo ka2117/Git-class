@@ -1,0 +1,312 @@
+body{
+    background: linear-gradient(to left, rgb(153, 75, 88,0.8), rgb(178, 178, 214,0.8), rgb(243, 243, 9,0.8));
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 2px greenyellow;
+    color:blueviolet;
+    text-transform: uppercase;
+    background: goldenrod;
+    width: 1000px;
+    margin-left: 200px;
+}
+.regform{
+    border: 3px solid black;
+    background: radial-gradient(rgb(87, 87, 187,0.7), rgb(145, 19, 113,0.7));
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+   height: 1700px;
+}
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 200px;
+    background: whitesmoke;
+    
+}
+td{
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+table input{
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+input:focus{
+    background: cyan;
+}
+input:hover{
+    background: gold;
+}
+table label{
+    text-shadow: 2px 2px crimson;
+    font-size: 25px;
+}
+tr:nth-child(even){
+    background: chartreuse;
+}
+tr:nth-child(odd){
+    background: cornflowerblue;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 600px;
+    background: rebeccapurple;
+    margin-left: 180px;
+}
+table th{
+    text-shadow: 2px 2px crimson;
+    font-size: 25px; 
+}
+#local{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 150px;
+    background: whitesmoke; 
+}
+#address{
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background: wheat;
+}
+#local input:focus{
+    background: brown;
+}
+#local input:hover{
+    background: slateblue;
+}
+#News{
+    border: 2px solid lime;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white;
+}
+#News label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#fri{
+    border: 2px solid lime;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white; 
+    margin-top: 10px;
+}
+#fri label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#web{
+    border: 2px solid lime;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white; 
+    margin-top: 10px;  
+}
+#web label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#box{
+    border: 2px solid lime;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white; 
+    margin-top: 10px; 
+}
+#box label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#News input[type="checkbox"]:checked+label{
+    background: blue;
+}
+#News input[type="checkbox"]:hover+label{
+    background: lightsalmon;
+}
+#News input[type="checkbox"]:focus+label{
+    background: darkgoldenrod;
+}
+#fri input[type="checkbox"]:checked+label{
+    background: blue;
+}
+#fri input[type="checkbox"]:hover+label{
+    background: lightsalmon;
+}
+#fri input[type="checkbox"]:focus+label{
+    background: darkgoldenrod;
+}
+#web input[type="checkbox"]:checked+label{
+    background: blue;
+}
+#web input[type="checkbox"]:hover+label{
+    background: lightsalmon;
+}
+#web input[type="checkbox"]:focus+label{
+    background: darkgoldenrod;
+}
+#box input[type="checkbox"]:checked+label{
+    background: blue;
+}
+#box input[type="checkbox"]:hover+label{
+    background: lightsalmon;
+}
+#box input[type="checkbox"]:focus+label{
+    background: darkgoldenrod;
+}
+h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 600px;
+    background: rebeccapurple;
+    margin-left: 180px;
+}
+.payment{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    
+}
+
+.ash{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.rad{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.que{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 2px green;
+    background: white;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-right: 5px;  
+}
+p1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#mytable{
+    width: 500px;
+    height: 50px;
+}
+#mytable input{
+    width: 200px;
+}
+.container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign hr{
+width: 200px;
+/* border-top: 2px solid black; */
+padding: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.digital{
+  font-size: 20px;
+  background: yellowgreen;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  border: 2px solid black;
+  width: fit-content;
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: 300px;
+}
+.dat label{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.dat input{
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sub button{
+    font-size: 20px;
+    border: 3px solid brown;
+    background: lightsalmon;
+    display: flex; 
+    align-items: center; 
+    margin-left: 400px;
+    margin-bottom: 200px;
+   margin-top: 20px;
+}
+
